@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bym-flex bym-flex-col bym-min-h-screen bym-justify-between">
         <Header />
-        {children}
+        <main className="bym-mt-24">{children}</main>
         <Footer />
       </body>
     </html>

@@ -180,20 +180,20 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oslokommune/punkt-assets@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-assets/-/punkt-assets-7.0.0.tgz#74954e36aac52e0abf93752ecea0f5f247a7b2f9"
-  integrity sha512-Gh2nHn8LMxEldlXnzJU60Xg+G04knr4OlE43UTxPq3BEFTDcfhWfXTpc6Ev2AwzkHfu8Y7lht94MIfQgPzbVIA==
+"@oslokommune/punkt-assets@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-assets/-/punkt-assets-8.0.0.tgz#cb94758f90b419c5add9915722e606b02996fb70"
+  integrity sha512-pUlV6mjqsOxylZ3OdzsbalKZSn59uRR5Xi8YMKbf+a5R6wLTcGBUBmPfjJ3PwjTedGdzfXX6O5E58rbAPpYbOA==
 
-"@oslokommune/punkt-css@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-css/-/punkt-css-7.2.0.tgz#1cc7d04658ffee6222a52369dfbad17f53b57f2d"
-  integrity sha512-KOLySv87ASBOi1Hvoq2OLYGuvwcai0fGuck8+vtz935IEIYjg3VzKgP+YvgCy556DtZxbeHRGA44mPT8xrKFlw==
+"@oslokommune/punkt-css@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-css/-/punkt-css-8.0.0.tgz#af124abc939e5903471bd7ca9553da1cdaa90bba"
+  integrity sha512-4Lv8wNcOGRNI/qsX/lwbw5mNzzHU+kfXmFD59p1phm6eL9SBDqyE8Y+dCMBFgvtgWpdCmgu9APB7xyYQ/JQULQ==
 
-"@oslokommune/punkt-react@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-react/-/punkt-react-7.2.0.tgz#baa9a3049bf0475eab41e1ff5deb295244773f59"
-  integrity sha512-65hAfYdHUS4fFEIcorDASCiSjggoK0CpbDlvSDCyPgeFqiTMR+Ee2lTAAfuZxC7ofipkSPkZGNDlqeEzWsg0cw==
+"@oslokommune/punkt-react@^8.0.0":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@oslokommune/punkt-react/-/punkt-react-8.0.2.tgz#79bcbffd2f945c133eb89bfc186e198bfd8e8d26"
+  integrity sha512-tcCYUOHwp6sfBni2+vbBJrMS5LMHcQ2Ne4Y7jWmlx5N9TJfYsc7Q+t0B7vmrt1VI9ajZyDFXhAYOJma3ta1zLQ==
 
 "@panva/hkdf@^1.0.2":
   version "1.1.1"

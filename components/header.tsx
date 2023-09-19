@@ -1,3 +1,5 @@
+"use client";
+
 import { PktHeader } from "@oslokommune/punkt-react";
 
 export default function Header() {

@@ -119,7 +119,7 @@ export function osloTextSizePlugin({ addUtilities, theme, addBase }) {
         "tablet-big": { preset: 18 },
         cssStyles: { fontWeight: theme("fontWeight.medium") }
       },
-      body: { mobile: { preset: 16, cssStyles: { fontWeight: theme("fontWeight.regular") } } }
+      body: { mobile: { preset: 16, cssStyles: { fontWeight: theme("fontWeight.light") } } }
     };
   
     /**

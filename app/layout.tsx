@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { NextAuthProvider } from "@/pages/api/auth/NextAuthProvider";
 
 import Favicon from "@oslokommune/punkt-assets/dist/logos/favicon.ico";
 import Shortcut from "@oslokommune/punkt-assets/dist/logos/16x16-favicon.png";
@@ -24,12 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bym-flex bym-flex-col bym-min-h-screen bym-justify-between">
-        <Header />
-        <main className="bym-mt-24">{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <NextAuthProvider>
+      <html lang="en">
+        <body className="bym-flex bym-flex-col bym-min-h-screen bym-justify-between">
+          <Header />
+          <main className="bym-mt-24">{children}</main>
+          <Footer />
+        </body>
+      </html>
+    </NextAuthProvider>
   );
 }

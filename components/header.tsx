@@ -9,17 +9,21 @@ export default function Header() {
   return (
     <PktHeader
       fixed
-      user={{
-        name: session?.user?.name ?? "Ikke innlogget",
-        shortname:
-          session?.user?.name
-            ?.split(" ")
-            .reduce((prev, curr) => prev + curr[0].toLocaleLowerCase()) ?? "NN",
-      }}
+      user={
+        session?.user && {
+          name: session?.user?.name ?? "Ikke innlogget",
+          shortname:
+            session?.user?.name
+              ?.split(" ")
+              .reduce((prev, curr) => prev + curr[0].toLocaleLowerCase()) ??
+            "NN",
+        }
+      }
       logOut={() => signOut()}
-      showLogOutButton
+      showLogOutButton={session?.user !== undefined}
       serviceName="Klagebehandling"
       canChangeRepresentation={false}
+      logoLink={process.env.CLIENT_BASE_URL}
     />
   );
 }

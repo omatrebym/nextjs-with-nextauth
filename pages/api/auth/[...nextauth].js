@@ -6,7 +6,6 @@ export const authOptions = {
     OneLoginProvider({
       clientId: process.env.ONELOGIN_ID,
       clientSecret: process.env.ONELOGIN_SECRET,
-      issuer: process.env.ONELOGIN_ISSUER
     }),
   ],
 }

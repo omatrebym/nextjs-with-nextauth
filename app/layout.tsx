@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <NextAuthProvider>
       <html lang="en">
-        <body className="tw-flex tw-flex-col tw-min-h-screen tw-justify-between">
+        <body className="bym-flex bym-flex-col bym-min-h-screen bym-justify-between">
           <Header />
-          <main className="tw-mt-24">{children}</main>
+          <main className="bym-mt-24">{children}</main>
           <Footer />
         </body>
       </html>

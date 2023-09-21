@@ -25,9 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bym-flex bym-flex-col bym-min-h-screen bym-justify-between">
+      <body className="tw-flex tw-flex-col tw-min-h-screen tw-justify-between">
         <Header />
-        <main className="bym-mt-24">{children}</main>
+        <main className="tw-mt-24">{children}</main>
         <Footer />
       </body>
     </html>

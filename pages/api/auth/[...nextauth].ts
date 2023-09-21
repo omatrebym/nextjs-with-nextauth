@@ -1,7 +1,12 @@
-import NextAuth from "next-auth";
+import NextAuth, { AuthOptions } from "next-auth";
 import OneLoginProvider from "next-auth/providers/onelogin";
 
-export const authOptions = {
+export const authOptions: AuthOptions = {
+  pages: {
+    signIn: "/auth/signin",
+    signOut: "/auth/signout",
+    error: "/auth/error",
+  },
   providers: [
     OneLoginProvider({
       clientId: process.env.ONELOGIN_CLIENT_ID,

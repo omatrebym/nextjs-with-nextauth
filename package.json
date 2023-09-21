@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@oslokommune/punkt-assets": "^8.0.0",
-    "@oslokommune/punkt-css": "^8.0.0",
+    "@oslokommune/punkt-css": "^8.0.5",
     "@oslokommune/punkt-react": "^8.0.0",
     "@types/node": "20.6.2",
     "@types/react": "18.2.21",
@@ -27,6 +27,6 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "sass": "^1.67.0"
+    "sass": "^1.68.0"
   }
 }

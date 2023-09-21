@@ -23,7 +23,7 @@ export default function Header() {
       showLogOutButton={session?.user !== undefined}
       serviceName="Klagebehandling"
       canChangeRepresentation={false}
-      logoLink={process.env.NEXT_PUBLIC_CLIENT_BASE_URL}
+      logoLink={process.env.CLIENT_BASE_URL}
     />
   );
 }
